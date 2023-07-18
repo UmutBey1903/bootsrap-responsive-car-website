@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- ! bootstrap bağlantı -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- ! bootstrap icon bağlantı -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- !css  bağlantı -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- navbar start -->
+
+    <div class="container ">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">CAR <span class="text-danger">WEBSİTE</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#Menu">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#about">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#cars">About cars</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#Contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- navbar end -->
+
+
+
+    <!-- slider start -->
+    <section id="Home">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/images/slider-1.avif" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h5>Ferrari</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione fugiat, expedita explicabo
+                            minus pariatur alias.</p>
+                        <p><a href="#" class="btn btn-warning">Click for more</a></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/images/slider-2.avif" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h5>Mclaren</h5>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab qui a fuga nisi sed sapiente.
+                        </p>
+                        <p><a href="#" class="btn btn-warning">Click for more</a></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/images/slider-3.avif" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h5>Lamborghini</h5>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab qui a fuga nisi sed sapiente.
+                        </p>
+                        <p><a href="#" class="btn btn-warning">Click for more</a></p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <!-- slider end -->
+
+
+    <!-- about start -->
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <div class="row">
+                <div data-aos="fade-up" class="col-lg-4 col-md-12 col-12">
+                    <div class="about-img">
+                        <img src="./assets/images/img-1.avif" alt=""
+                            class="img-fluid mb-4 rounded-3 align-items-center" />
+                    </div>
+                </div>
+                <div data-aos="fade-down" class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5 ">
+                    <div class="about-text">
+                        <h2>Always quality service</h2>
+                        <p class="lead">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic,
+                            nostrum iste mollitia odit eum sint perferendis minus modi
+                            facere eaque, quidem libero voluptate asperiores vero totam.
+                            Nobis blanditiis repellat hic culpa perferendis expedita,
+                            inventore numquam tenetur fugit consectetur deserunt nisi?
+                        </p>
+
+                        <a href="#" class="btn btn-warning">Click for more info</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about end -->
+
+
+    <!-- our cars start -->
+    <section id="about" class="about cars section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center pb-5">
+                        <h2>Our cars</h2>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum sed vero atque voluptas,
+                            voluptatibus optio mollitia quasi deleniti nisi ab aspernatur, ea voluptatum? Perferendis,
+                            deserunt.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-white text-center mb-3">
+                        <div class="card rounded-2">
+                            <img src="./assets/images/img-2.avif" class="card-img-top p-3 rounded-4" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Mclaren</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Examine</a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-white text-center mb-3">
+                        <div class="card rounded-2">
+                            <img src="./assets/images/img-3.avif" class="card-img-top p-3 rounded-4" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Bmw m4</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Examine</a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-white text-center mb-3">
+                        <div class="card rounded-2">
+                            <img src="./assets/images/slider-1.avif" class="card-img-top p-3 rounded-4" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Ferrari</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Examine</a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- our cars end -->
+
+
+
+ <!--about cars start-->
+
+ <section id="cars" class="portfolio section-padding">
+    <div class="container">
+      <div data-aos="zoom-in" class="row">
+        <div class="col-md-12">
+          <div class="section-header text-center pb-5">
+            <h2>About cars</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Mollitia hic harum beatae fuga neque unde molestias laudantium
+              ullam alias numquam?
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div data-aos="zoom-in" class="col-12 col-md-12 col-lg-4 mb-4">
+          <div class="card text-light text-center bg-white pb-2">
+            <div class="card-body text-dark">
+              <div class="img-area mb-4">
+                <img src="./assets/images/slider-3.avif" alt="" class="img-fluid rounded-3" />
+              </div>
+              <h3 class="card-title">Lamborghini</h3>
+              <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Placeat sunt cum nesciunt temporibus sint similique, assumenda
+                delectus voluptatum aspernatur vero!
+              </p>
+              <button class="btn bg-warning">More info</button>
+            </div>
+          </div>
+        </div>
+
+        <div data-aos="zoom-in-down" class="col-12 col-md-12 col-lg-4 mb-4">
+          <div class="card text-light text-center bg-white pb-2">
+            <div class="card-body text-dark">
+              <div class="img-area mb-4">
+                <img src="./assets/images/slider-2.avif" alt="" class="img-fluid rounded-3" />
+              </div>
+              <h3 class="card-title">Mclaren</h3>
+              <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Placeat sunt cum nesciunt temporibus sint similique, assumenda
+                delectus voluptatum aspernatur vero!
+              </p>
+              <button class="btn bg-warning">More info</button>
+            </div>
+          </div>
+        </div>
+
+        <div data-aos="zoom-in-up" class="col-12 col-md-12 col-lg-4 mb-4">
+          <div class="card text-light text-center bg-white pb-2">
+            <div class="card-body text-dark">
+              <div class="img-area mb-4">
+                <img src="./assets/images/slider-1.avif" alt="" class="img-fluid rounded-3" />
+              </div>
+              <h3 class="card-title">Ferrari</h3>
+              <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Placeat sunt cum nesciunt temporibus sint similique, assumenda
+                delectus voluptatum aspernatur vero!
+              </p>
+              <button class="btn bg-warning">More info</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--about cars end-->
+
+
+ <!-- comments start -->
+
+  <section id="team" class="team section-padding">
+    <div class="container ">
+      <div data-aos="flip-up" class="row">
+        <div class="col-md-12">
+          <div class="section-header text-center pb-5">
+            <h2>Comments</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Mollitia hic harum beatae fuga neque unde molestias laudantium
+              ullam alias numquam?
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div data-aos="fade-down-right" class="col-12 col-md-6 col-lg-3">
+          <div class="card text-center mb-4">
+            <div class="card-body ">
+              <img
+                src="./assets/images/person-1.avif"
+                alt=""
+                class="img-fluid rounded-circle"
+              />
+              <h3 class="card-title py-2">Julia</h3>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                ea magni neque quaerat consequuntur optio enim nam sint aut
+                tenetur?
+              </p>
+              <p>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-linkedin"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div data-aos="fade-up-right" class="col-12 col-md-6 col-lg-3">
+          <div class="card text-center mb-4">
+            <div class="card-body">
+              <img
+                src="./assets/images/person-2.avif"
+                alt=""
+                class="img-fluid rounded-circle"
+              />
+              <h3 class="card-title py-2">Mary</h3>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                ea magni neque quaerat consequuntur optio enim nam sint aut
+                tenetur?
+              </p>
+              <p>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-linkedin"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div data-aos="fade-up-left" class="col-12 col-md-6 col-lg-3">
+          <div class="card text-center mb-4">
+            <div class="card-body">
+              <img
+                src="./assets/images/person-3.avif"
+                alt=""
+                class="img-fluid rounded-circle"
+              />
+              <h3 class="card-title py-2">Zlata</h3>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                ea magni neque quaerat consequuntur optio enim nam sint aut
+                tenetur?
+              </p>
+              <p>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-linkedin"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div data-aos="fade-up-left" class="col-12 col-md-6 col-lg-3">
+          <div class="card text-center">
+            <div class="card-body">
+              <img
+                src="./assets/images/person-4.avif"
+                alt=""
+                class="img-fluid rounded-circle"
+              />
+              <h3 class="card-title py-2">Jack</h3>
+              <p class="card-text mb-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                ea magni neque quaerat consequuntur quaerat 
+              </p>
+              <p>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-linkedin"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- comments end -->
+
+
+<!-- contact start -->
+
+
+<section id="contact" class="contact section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-header text-center pb-5">
+            <h2>Contact now</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Mollitia hic harum beatae fuga neque unde molestias laudantium
+              ullam alias numquam?
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row m-0">
+        <div class="col-md-12 p-0 pt-4 p-4 m-auto">
+          <form action="#">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    required
+                    class="form-control"
+                    placeholder="Name"
+                  />
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <div class="mb-3">
+                  <input
+                    type="email"
+                    required
+                    class="form-control"
+                    placeholder="Email"
+                  />
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <div class="mb-3">
+                  <textarea
+                    name=""
+                    id=""
+                    cols="30"
+                    rows="3"
+                    class="form-control"
+                    placeholder="Message"
+                  ></textarea>
+                </div>
+              </div>
+
+              <button class="btn btn-warning btn-lg mt-3">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- contact end -->
+
+
+<!-- footer start -->
+
+  <div class="container">
+    <footer class="py-5">
+      <div class="row">
+        <div class="col-md-5 offset-md-1 mb-3 ms-auto">
+          <form>
+            <h5>Subscribe to our newsletter</h5>
+            <p>Monthly digest of what's new and exciting from us.</p>
+            <div class="d-flex gap-2">
+              <label for="newsletter1" class="visually-hidden"
+                >Email address</label
+              >
+              <input
+                id="newsletter1"
+                type="text"
+                class="form-control"
+                placeholder="Email address"
+              />
+              <button class="btn btn-primary" type="button">Subscribe</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div
+        class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top"
+      >
+        <p>&copy; 2022 Company, Created by Umut Tasdemir</p>
+    
+      </div>
+    </footer>
+  </div>
+
+
+<!-- footer end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+
+</html>
